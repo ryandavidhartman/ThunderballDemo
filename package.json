@@ -2,7 +2,7 @@
   "name": "ThunderballDemo",
   "private": true,
   "version": "1.0.0",
-  "description": "A sample Thunderball Project",
+  "description": "Sample Thunderball app",
   "main": "index.js",
   "scripts": {
     "start": "gulp",

@@ -1,5 +1,5 @@
-# Thunderballdemo
-> A sample Thunderball Project
+# ThunderballDemo
+> Sample Thunderball app
 
 _This client application was generated from the [thunderball](https://github.com/angieslist/thunderball.io) generator._
 

@@ -11,7 +11,7 @@ const App = ({ children }) => (
       htmlAttributes={{
         lang: 'en',
       }}
-      titleTemplate={'%s - Thunderballdemo'}
+      titleTemplate={'%s - ThunderballDemo'}
       meta={[]}
       link={[
         { rel: 'shortcut icon', type: 'image/png', href },

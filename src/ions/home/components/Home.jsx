@@ -3,7 +3,7 @@ import './home.scss';
 
 const Home = () => (
   <div>
-    <h1>Welcome to Thunderballdemo</h1>
+    <h1>Welcome to ThunderballDemo</h1>
     <p>
       This is an example of what you can do with Thunderball to help you get started.
     </p>

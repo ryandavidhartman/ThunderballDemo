@@ -3,7 +3,7 @@
 exports[`<Home /> renders 1`] = `
 <div>
   <h1>
-    Welcome to Thunderballdemo
+    Welcome to ThunderballDemo
   </h1>
   <p>
     This is an example of what you can do with Thunderball to help you get started.

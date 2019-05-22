@@ -1,9 +1,9 @@
 {
   "generator-thunderball": {
     "promptValues": {
-      "displayName": "Thunderballdemo",
+      "displayName": "ThunderballDemo",
       "name": "ThunderballDemo",
-      "description": "A sample Thunderball Project",
+      "description": "Sample Thunderball app",
       "installDependencies": true
     }
   }
