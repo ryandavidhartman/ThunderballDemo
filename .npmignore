@@ -33,10 +33,6 @@ local.properties
 #
 node_modules/
 npm-debug.log
-package-lock.json
-
-# Testing
-coverage/
 
 # BUCK
 buck-out/
@@ -50,19 +46,14 @@ android/keystores/debug.keystore
 build-info.json
 /lib/
 npm-debug.log
+coverage/
 test-results.xml
 test-report.xml
 jest_0/
 newrelic_agent.log
-.deco
-bundle-stats.json
 
 webpack-assets.*
-*.sublime-workspace
-src/common/secrets.json
-src/native/config.js
-src/native/messages.js
-*.jsbundle
+bundle-stats.json
 tsconfig.json
 /typings
 
@@ -73,11 +64,3 @@ tsconfig.json
 
 # generated files
 *.generated.js
-
-# env-cmd files
-.env
-.env-cmdrc
-
-# git
-.orig
-
