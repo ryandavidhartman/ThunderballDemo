@@ -3,6 +3,8 @@ import { FormattedMessage } from 'react-intl';
 import Footer from './Footer';
 import AddTodo from '../containers/AddTodo';
 import VisibleTodoList from '../containers/VisibleTodoList';
+import { Link } from 'react-router';
+import { basePath } from '../constants';
 
 const App = () => (
   <div>
@@ -10,14 +12,16 @@ const App = () => (
       <FormattedMessage
         id="app.title"
         description="app title"
-        defaultMessage="TODO"
+        defaultMessage="TODOS"
       />
     </h1>
     <AddTodo />
     <VisibleTodoList />
     <Footer />
     <hr />
-    <a href="/">Home</a> {'> Todos'}
+    <Link to={`${basePath}/unfiltered`}>
+      Unfiltered Todos
+    </Link>
   </div>
 );
 
